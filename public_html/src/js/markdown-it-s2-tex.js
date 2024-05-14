@@ -168,7 +168,7 @@
 					;
 				}
 
-				var url      = protocol + '//i.upmath.me/svg/' + encodeURIComponent(formula),
+				var url      = protocol + '//i.upmath.me/png/' + encodeURIComponent(formula),
 					isInline = "tex-inline" === tokens[idx].tag;
 
 				return isInline
